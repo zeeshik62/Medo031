@@ -1,22 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Weather from "./components/Weather";
 
 function App() {
   return (
-    <div class="columns">
-  <div class="column">
-    First column
+    <div>
+    <Weather/>
   </div>
-  <div class="column">
-    Second column
-  </div>
-  <div class="column">
-    Third column 3
-  </div>
-  <div class="column">
-    Fourth column
-  </div>
-</div>
   );
 }
 
