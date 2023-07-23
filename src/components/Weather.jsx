@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import p1 from '../assets/img/icon.png'
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -39,7 +40,8 @@ const Weather = () => {
 
   return (
     <div className="container bg-success text-white mt-5 rounded border border-primary mx-auto w-25" >
-      <h1 className="m-3">Weather App <img src= {''}/> </h1>
+      <h1 className="ml-4 mt-3 ">Weather App  </h1>
+      <img className="rounded mx-auto d-block w-75 h-75" src= {p1}/>
       <form onSubmit={handleSubmit}>
         <input className="form-control w-75 m-3 "
           type="text"
