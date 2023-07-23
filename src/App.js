@@ -11,7 +11,7 @@ function App() {
     Second column
   </div>
   <div class="column">
-    Third column
+    Third column 3
   </div>
   <div class="column">
     Fourth column
